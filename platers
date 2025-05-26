@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بلاترس - خدمات الأمن والنظافة</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header, footer {
+      background-color: #00264d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav {
+      background-color: #014a81;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #014a81;
+    }
+    .services ul, .clients ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li, .clients li {
+      background: #fff;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background-color: #014a81;
+      color: white;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>شركة بلاترس</h1>
+    <p>للخدمات الأمنية وخدمات النظافة</p>
+  </header>
+
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">من نحن</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#clients">عملائنا</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+
+  <section id="home">
+    <h2>مرحباً بكم في شركة بلاترس</h2>
+    <p>
+      نقدم خدمات الأمن والنظافة بأعلى جودة واحترافية، ونحرص على تلبية احتياجاتكم من خلال كوادرنا المدربة واستخدامنا لأحدث الأساليب والتقنيات.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>من نحن</h2>
+    <p>
+      شركة بلاترس هي شركة مصرية متخصصة في تقديم خدمات الأمن والحراسة وخدمات النظافة المتكاملة.
+      نعمل على توفير بيئة آمنة ونظيفة لمختلف أنواع المؤسسات، عبر فرق عمل مدربة ومعدات حديثة.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>خدماتنا</h2>
+    <ul>
+      <li>توفير أفراد أمن مدربين وحراس منشآت</li>
+      <li>تركيب وصيانة أنظمة المراقبة والكاميرات</li>
+      <li>خدمات نظافة يومية للمكاتب والمصانع</li>
+      <li>تنظيف واجهات المباني والزجاج الخارجي</li>
+      <li>تعقيم المؤسسات والمستشفيات</li>
+    </ul>
+  </section>
+
+  <section id="clients" class="clients">
+    <h2>عملاؤنا</h2>
+    <p>نفخر بخدمة عدد من الشركات والمؤسسات مثل:</p>
+    <ul>
+      <li>شركة XYZ للأغذية</li>
+      <li>مستشفى ABC التخصصي</li>
+      <li>مول التسوق الرئيسي - القاهرة</li>
+      <li>بنك الوطنية</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="الاسم" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <textarea placeholder="رسالتك" rows="5" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2025 شركة بلاترس</p>
+  </footer>
+</body>
+</html>
